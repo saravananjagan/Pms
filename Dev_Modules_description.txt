@@ -4,3 +4,4 @@ Examination Module
 	-	Schedule for examination -> Upload form
 								 -> View the schedule in both desktop and mobile
 								 -> Notification of the schedule in sms and email with a short  link in the same.
+								 
