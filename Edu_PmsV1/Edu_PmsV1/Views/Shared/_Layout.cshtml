@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="~/Content/Site.css" rel="stylesheet" />
+	<script src="~/Scripts/jquery-3.3.1.js"></script>
+	<link href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="topnav">
+		<a href="#"><h4>Demo Institute</h4></a>
+	</div>
+	<ul id="expandedNav">
+		<li class="nav-profile">
+			<div class="image">
+				<img src="~/Images/UserImg.jpg" />
+			</div>
+			<div class="info">
+				<span></span>
+				<span>Name</span><br />
+			</div>
+			Designation
+		</li>
+		<li><a href="#"><i class="fa fa-home fa-lg fa-fw" aria-hidden="true"></i>&nbsp; Home</a></li>
+		<li><a class="active" href="#"><i class="fa fa-wpforms fa-lg fa-fw" aria-hidden="true"></i>&nbsp; Examination</a></li>
+	</ul>
+	
+	<div class="body-content">
+		@RenderBody()
+	</div>
+	
+	<script>
+		
+	</script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+﻿* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #180470;
+}
+
+	.topnav a {
+		float: left;
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 36px;
+		text-decoration: none;
+		font-size: 17px;
+	}
+
+		.topnav a:hover {
+			/*background-color: #f27407;*/
+			color: #f9a600;
+		}
+
+	/*.topnav a.active {
+			background-color: #f27407;
+			color: white;
+		}*/
+
+
+	.topnav .search-container {
+		float: left;
+		padding-left: 10%;
+	}
+
+	.topnav input[type=text] {
+		padding: 6px;
+		margin-top: 8px;
+		font-size: 17px;
+		border: none;
+		width: 360px;
+	}
+
+	.topnav .search-container button {
+		float: right;
+		padding: 6px 10px;
+		margin-top: 8px;
+		margin-right: 16px;
+		background: #fcb271;
+		font-size: 17px;
+		border: none;
+		cursor: pointer;
+		color: #180470;
+	}
+
+		.topnav .search-container button:hover {
+			background: #f27407;
+			color: white;
+		}
+
+#expandedNav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 15%;
+	background-color: #180470;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+	transition: 0.2s;
+}
+#closedNav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 10%;
+	background-color: #180470;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+	text-align: center;
+}
+
+li a {
+	display: block;
+	color: white;
+	padding: 8px 16px;
+	text-decoration: none !important;
+}
+
+	li a.active {
+		background-color: #f9a600;
+		color: white;
+		text-decoration: none !important;
+	}
+
+	li a:hover:not(.active) {
+		/*background-color: #f9a600;
+		color: white;*/
+		color: #f9a600;
+		text-decoration: none !important;
+	}
+
+li.nav-profile {
+	padding: 20px;
+	text-align: center;
+	color: #fff;
+	background-color: #f9a600;
+}
+
+	li.nav-profile .image img {
+		width: 80px;
+		height: 80px;
+		margin: 2px auto 15px;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		border-radius: 50%;
+	}
+	li.nav-profile .info {
+		font-size: 16px;
+		font-weight: 700;
+	}
+.body-content {
+	margin-left:15%;
+}
+@media screen and (max-width: 600px) {
+}
